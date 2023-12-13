@@ -19,6 +19,7 @@ The penalty dataset went week by week is an genreral overview of each type of pe
  Lastly for the transforming portion of ETL we turned our dataframe into dictionaries to prepare to bring them into our non-relational database.
 
  Our final step of our ETL process was to load our transformed data into MongoDB Compass.
+ First we imported MongoClient into our jupiter notebook so we can start the process of loading our data.
  Because of the volume of data in each of our datasets our group thought it would be best to use a non-relational database which is why we choose to use MongoDB.
  Also another reason is the data we are using is getting constantly updated with new stats throughout the current season of the NFL, and if we were to continue using these datasets the task of bringing new data would be simplified.
  After deciding to use MongoDB we had to create a connection to MongoDB and make references to our database and each of our collecitons.
